@@ -7,6 +7,7 @@ To compile wasm from "./wasm/main.ts" file run:
 ```bash
 npm run AS-build
 ```
+This example uses [as-bind](https://www.npmjs.com/package/as-bind) and [assemblyscript-loader](https://www.npmjs.com/package/@assemblyscript/loader) to simplify API interactions between Svelte and Assembly Script.
 
 ---
 
