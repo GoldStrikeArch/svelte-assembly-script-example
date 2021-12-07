@@ -5,7 +5,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w --port 5555",
-    "start": "sirv public --no-clear --port 5555"
+    "start": "sirv public --no-clear --port 5555",
+    "AS-build": "npx asc -b ./public/main.wasm --exportRuntime --transform as-bind --optimize ./wasm/main.ts"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
